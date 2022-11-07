@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.apirest.sql.service.person.PersonServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.183 s <<< FAILURE! - in com.apirest.sql.service.person.PersonServiceImplTest
+save  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because the return value of "com.apirest.sql.entity.Person.getCedula()" is null
+	at com.apirest.sql.service.person.PersonServiceImplTest.save(PersonServiceImplTest.java:57)
+
